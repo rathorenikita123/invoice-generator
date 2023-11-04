@@ -1,36 +1,56 @@
-# Invoice Generator - React App
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+# Invoice Generator
 
-An Invoice creator project built with React. Add itemized items, configure quantity, prices, tax rates and discounts. Download Invoice as PDFs to your device. Uses [jspdf-react](https://www.npmjs.com/package/jspdf-react) to capture the data from the modal and covert it from canvas -> pdf.
+## Overview
 
-### Live Demo
-https://invoice-generator-react.netlify.app/
+The Invoice Generator is a web application built with React, React Bootstrap, and React Redux. It allows users to create, manage, and generate professional invoices. The application simplifies the invoicing process for businesses and freelancers, providing a user-friendly interface to input and organize invoice details.
 
-### Screenshots
-<img src="https://i.imgur.com/wRetnxk.png" style="max-width: 100px; width: 100%; height: auto;">
-<img src="https://i.imgur.com/AZChaei.png" style="max-width: 100px; width: 100%; height: auto;">
-<img src="https://i.imgur.com/Bz3K3DE.png" style="max-width: 100px; width: 100%; height: auto;">
+## Features
 
-### Installation
+- **Create Invoices:** Easily create new invoices with a user-friendly form.
+- **Edit and Update:** Modify existing invoices as needed.
+- **Duplicate Invoices:** Quickly replicate invoices to save time on similar transactions.
+- **View and Manage:** Navigate through the list of all invoices, view details, and perform various actions.
+- **Responsive Design:** The application is designed with React Bootstrap for a responsive and visually appealing UI.
 
-```
-git clone https://github.com/johnuberbacher/invoice-generator
+## Getting Started
 
-npm install
+Follow these steps to set up and run the Invoice Generator locally:
 
-npm start / npm run build
-```
+1. **Clone Repository:**
+   ```bash
+   git clone https://github.com/rathorenikita123/invoice-generator.git
+   cd invoice-generator
 
-### To-Do
-- [x] Finish parsing data into Preview Modal
+2.  **Install Dependencies:**
+    npm install
 
-- [x] Currency Picker
+3. **Run the Application**
+    npm start
 
-- [x] Calculate Tax and Discounts
+4. **Access the Application**
+    Open your browser and navigate to http://localhost:3000.
 
-- [ ] Store invoices in Firebase DB
+Usage
 
+Create a New Invoice:
+Click on the "Create Invoice" button.
+Fill in the necessary details in the form built with React Bootstrap components.
+Click "Save Invoice" to preview and finalize.
 
-### Meta
+Edit an Existing Invoice:
+Navigate to the list of all invoices.
+Click on the "Edit Invoice" button next to the desired invoice.
+Update the details and save changes through Redux actions.
 
-John Uberbacher – [johnuberbacher.com](https://johnuberbacher.com)
+View Invoice Details:
+Click on the "View Invoice" button to see a detailed view of an invoice.
+
+Delete an Invoice:
+Navigate to the list of all invoices.
+Click on the "Delete" button next to the desired invoice.
+Technologies Used
+React.js
+Redux
+React Bootstrap
+React Router
+
