@@ -30,25 +30,25 @@ Follow these steps to set up and run the Invoice Generator locally:
 4. **Access the Application**
     Open your browser and navigate to http://localhost:3000.
 
-Usage
-
-Create a New Invoice:
+## Usage
+**Create a New Invoice:**
 Click on the "Create Invoice" button.
 Fill in the necessary details in the form built with React Bootstrap components.
 Click "Save Invoice" to preview and finalize.
 
-Edit an Existing Invoice:
+**Edit an Existing Invoice:**
 Navigate to the list of all invoices.
 Click on the "Edit Invoice" button next to the desired invoice.
 Update the details and save changes through Redux actions.
 
-View Invoice Details:
+**View Invoice Details:**
 Click on the "View Invoice" button to see a detailed view of an invoice.
 
-Delete an Invoice:
+**Delete an Invoice:**
 Navigate to the list of all invoices.
 Click on the "Delete" button next to the desired invoice.
-Technologies Used
+
+**Technologies Used**
 React.js
 Redux
 React Bootstrap
